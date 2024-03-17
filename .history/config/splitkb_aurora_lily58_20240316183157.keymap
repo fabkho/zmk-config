@@ -29,9 +29,9 @@
                                   &kp LALT  &kp LEFT_COMMAND  &mo 1   &kp SPACE    &kp RET   &mo 2   &kp GRAVE  &kp RGUI
             >;
 
-            sensor-bindings = 
-                <&inc_dec_kp PG_UP PG_DN
-                     &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp A B>;
         };
 
         lower_layer {
